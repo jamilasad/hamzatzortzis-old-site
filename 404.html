@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Page not found · hamzatzortzis.com archive</title>
+<style>
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #f7f5f0; color: #222;
+         font: 17px/1.6 Georgia, 'Times New Roman', serif; }
+  main { max-width: 34rem; padding: 2rem 1.5rem; text-align: center; }
+  h1 { font-weight: normal; font-size: 2rem; margin: 0 0 .5rem; }
+  p { margin: 0 0 1rem; color: #555; }
+  a { color: #7a5a2a; }
+</style>
+</head>
+<body><!-- id="archive-notice": this page states it is part of the archive itself -->
+<main>
+  <h1>Page not found</h1>
+  <p>This page is not part of the archived copy of hamzatzortzis.com. Some pages of the original site were never captured by the Internet Archive.</p>
+  <p><a id="home" href="index.html">Go to the archived homepage</a></p>
+</main>
+<script>
+  // GitHub Pages serves this file at any missing path; point the link at the site root (the repository's sub-path)
+  var parts = location.pathname.split('/').filter(Boolean);
+  if (location.hostname.endsWith('github.io') && parts.length) document.getElementById('home').href = '/' + parts[0] + '/';
+</script>
+</body>
+</html>
